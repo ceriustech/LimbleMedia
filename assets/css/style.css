@@ -1,0 +1,11 @@
+/* Helper Classes */
+
+.card {
+    background-color: #fff; 
+    -webkit-box-shadow: 2px 2px 35px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 35px -8px rgba(0, 0, 0, 0.75);
+}
+
+.major h1 {
+    color: red; 
+}
