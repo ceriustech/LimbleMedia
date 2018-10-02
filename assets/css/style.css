@@ -28,3 +28,20 @@
     border-bottom: 2px solid #616161;
 }
 
+/***** Services *****/
+/* Info Section */
+.info-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+}
+
+i {
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.fas {
+    font-size: 1.5em;
+}
