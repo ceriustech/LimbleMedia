@@ -1,11 +1,25 @@
 /* Helper Classes */
 
+
+
 .card {
-    background-color: #fff; 
-    -webkit-box-shadow: 2px 2px 35px -8px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 2px 35px -8px rgba(0, 0, 0, 0.75);
+    background-color: #242943; 
+    padding-right: 24px !important;
 }
 
-.major h1 {
-    color: red; 
+.card-2 {
+    padding: 24px !important;
+}
+
+.double-border {
+    border-right: 2px solid #616161;
+    border-left: 2px solid #616161;
+}
+
+.left-border {
+    border-left: 2px solid #616161;
+}
+
+.right-border {
+    border-right: solid #616161;
 }
