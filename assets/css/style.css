@@ -1,7 +1,22 @@
 /* Helper Classes */
 
+.services-header-image {
+    margin-bottom: 80px !important;
+}
+.services-header-image img {
+    height: 30em !important;
+    max-width: 100% !important;
+    position: relative; 
+}
 
-
+.services-header-image h1 {
+    font-size: 3.0rem;
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    background: rgb(36,41,61, 0.5);
+    border-bottom:  2px solid #fff; 
+}
 .card {
     background-color: #242943; 
     padding-right: 24px !important;
@@ -44,4 +59,39 @@ i {
 
 .fas {
     font-size: 1.5em;
+}
+
+iframe {
+    width: 100%; 
+}
+
+/***** Media Queries *****/
+
+@media only screen and (max-width: 768px) {
+    .double-border {
+    border: none; 
+}
+
+.left-border {
+    border: none; 
+}
+
+.right-border {
+    border: none; 
+}
+
+.bottom-border {
+    border: none; 
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .services-header-image img {
+        height: auto !important;
+    }
+    
+    .services-header-image h1 {
+        font-size: 2em; 
+    }
 }
