@@ -65,6 +65,15 @@ iframe {
     width: 100%; 
 }
 
+/***** Work ****/
+
+.inner .text {
+    text-transform: capitalize;
+}
+
+.text-2 {
+    text-transform: uppercase;
+}
 /***** Media Queries *****/
 
 @media only screen and (max-width: 768px) {
